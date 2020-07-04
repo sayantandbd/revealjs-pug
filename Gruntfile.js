@@ -27,6 +27,12 @@ module.exports = function(grunt) {
         expand: true,
         dest: 'dist/assets/reveal.js/',
       },
+      assets: {
+        cwd: 'assets/', 
+        src: ['**'],
+        expand: true,
+        dest: 'dist/assets/',
+      },
     },
 
     run: {

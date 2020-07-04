@@ -1,0 +1,92 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.left-panel {
+    width: 15%;
+    flex: 1;
+    flex-direction: column;
+    background: black;
+    overflow: auto;
+}
+
+.left-panel .slide-box {
+    width: 90%;
+    margin: 10px auto;
+    border:3px solid white;
+    height:120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.slide-box h1 {
+    color: white;
+    font-size: xxx-large;
+}
+
+.slide-panel {
+    width: 85%;
+}
+
+
+button {
+    display: inline-block;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: xx-large;
+    border: none;
+    text-shadow: none;
+    margin: 10px;
+}
+
+.green {
+    background: green;
+    color:white;
+}
+.red {
+    background: red;
+    color:white;
+}
+.yellow {
+    background: yellow;
+    color:white;
+}
+
+.violet {
+    background: violet;
+    color:white;
+}
+
+.indigo {
+    background: indigo;
+    color:white;
+}
+
+.blue {
+    background: blue;
+    color:white;
+}
+
+.green {
+    background: green;
+    color:white;
+}
+
+.orange {
+    background: orange;
+    color:white;
+}
+.black {
+    background: black;
+    color:white;
+}
+.white {
+    background: white;
+    color:black;
+}
+
