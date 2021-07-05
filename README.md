@@ -15,3 +15,5 @@ Refer [RevealJS Github](https://github.com/hakimel/reveal.js/) for basic documen
 * Create buttons to navigate through slides with button(goto="template1") Button Name
 * You can also add specific colors e.g. button(goto="template1").green
 
+## License
+MIT licensed
